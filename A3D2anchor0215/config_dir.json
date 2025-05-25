@@ -1,0 +1,28 @@
+{
+  "apvit_folder": "/pathtomodel/apvit/APViT",
+  "apvit": "/pathtomodel/apvit_pretrained_raf.pth",
+  "wav2vec": "/pathtomodel/wav2vec",
+  "wavlm": "/pathtomodel/wavlm_base_plus",
+  "bert-uncased": "/pathtomodel/bert",
+  "roberta-base": "/pathtomodel/roberta_base",
+  "roberta-base-emo": "/pathtomodel/roberta_base_emo",
+  "vit": "/pathtomodel/vit-base-patch16-224",
+
+
+  "vision": {
+    "model": "APViT" 
+  },
+
+  "audio": {
+    "model": "wavlm"
+  },
+
+  "text":{
+    "model": "bert-uncased"
+  }
+
+
+}
+
+
+
